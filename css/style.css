@@ -432,7 +432,7 @@ header nav.right a.click {
 }
 
 #about section.wrapper section.information div.info div.bottom { 
-	margin-top: 20px;
+	margin-top: 17px;
 
 }
 
@@ -443,6 +443,9 @@ header nav.right a.click {
 }
 #about section.wrapper section.information div.info div.bottom ul.sv {
 	margin-top: 45px;
+}
+#about section.wrapper section.information div.info  div.bottom ul.down {
+	padding-top: 20px;
 }
 
 #about section.wrapper section.information div.info div.bottom ul li { 
@@ -464,12 +467,12 @@ header nav.right a.click {
 }
 
 #about section.wrapper section.information div.info div.bottom p { 
-	margin-top: 20px;
+	padding: 7px;
 	color: #818181;
 	font-size: 13px;
 }
 #about section.wrapper section.information div.info div.bottom p.manage {
-	margin-top: 23px;
+	padding-top: 8px;
 	color: #818181;
 	font-size: 13px;
 }
@@ -763,6 +766,7 @@ header nav.left ul li label{
 	header nav.right a.click {
 		margin-right: 0;
 	}
+	
 	header nav.right {
 		margin-left: 72px;
 	}
@@ -814,13 +818,10 @@ header nav.left ul li label{
 	}
 }
 @media all and (max-width:1080px) {
-	header nav.right a {
+	header nav.right  {
 		display: none;
 	}
-	header nav.right form input {
-		display: none;
-	}
-	header nav.right form button {
+	header nav.right form {
 		display: none;
 	}
 	header nav.left label {
@@ -950,13 +951,10 @@ header nav.left ul li label{
 
 }
 @media all and (max-width: 980px) {
-	header nav.right a {
+	header nav.right  {
 		display: none;
 	}
-	header nav.right form input {
-		display: none;
-	}
-	header nav.right form button {
+	header nav.right form {
 		display: none;
 	}
 	header nav.left label {
@@ -1040,6 +1038,12 @@ header nav.left ul li label{
 	
 }
 @media all and (max-width: 768px) {
+	header nav.right  {
+		display: none;
+	}
+	header nav.right form {
+		display: none;
+	}
 	header nav.left h1.logo {
 		display: flex;
 		justify-content: space-around;
@@ -1125,6 +1129,12 @@ header nav.left ul li label{
 	}
 }
 @media all and (max-width: 640px) {
+	header nav.right  {
+		display: none;
+	}
+	header nav.right form {
+		display: none;
+	}
 	header nav.left h1.logo {
 		display: flex;
 		justify-content: space-around;
@@ -1189,6 +1199,13 @@ header nav.left ul li label{
 
 }
 @media all and (max-width: 480px) {
+
+	header nav.right  {
+		display: none;
+	}
+	header nav.right form {
+		display: none;
+	}
 	header nav.left h1.logo {
 		display: flex;
 		justify-content: space-around;
@@ -1231,6 +1248,12 @@ header nav.left ul li label{
 	}
 }
 @media all and (max-width: 360px) {
+	header nav.right  {
+		display: none;
+	}
+	header nav.right form {
+		display: none;
+	}
 	#spotlight {
 		padding-top: 63px;
 	}
